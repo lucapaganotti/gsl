@@ -1,3 +1,5 @@
+#include "config.h"
+
 #define INDEX int
 #define OFFSET(N, incX) ((incX) > 0 ?  0 : ((N) - 1) * (-(incX)))
 #define BLAS_ERROR(x)  cblas_xerbla(0, __FILE__, x); 
